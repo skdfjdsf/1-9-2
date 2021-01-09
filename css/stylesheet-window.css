@@ -1,0 +1,61 @@
+body
+{
+    background-color: black;
+}
+.window
+{
+    background-color: dimgray;
+    height: 500px;
+    width: 80%;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+.window-img 
+{
+    background-color: dodgerblue;
+    width: 600px;
+    height: 400px;
+    z-index: 1;
+    position: absolute;
+    top: 10%;
+    left: 6%;
+}
+.window-img img
+{
+    width: 600px;
+    height: 400px;
+}
+.window-text
+{
+    width: 480px;
+    z-index: 1;
+    background-color:rgb(56, 141, 221);
+    position: absolute;
+    top: 10%;
+    left: 56%;
+    text-align: center;
+}
+.window-text p
+{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+.window-text img
+{
+    width: 100px;
+    height: 40px;
+}
+.window-hover
+{
+    margin: 5px;
+}
+.window-hover img:hover
+{
+    transform:scale(1.5);
+}
+.window-text input
+{
+    margin: 6.5px;
+}
